@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLibrary", "DemoLibrary\DemoLibrary.csproj", "{179F2B73-689C-4EA6-AAC1-606AF7063E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsMediatorDesignPatternApp", "CqrsMediatorDesignPatternApp\CqrsMediatorDesignPatternApp.csproj", "{8FCC0717-73C5-4A89-9440-93B5F9247027}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C15B9E34-385C-4F12-ADA2-DCEA18C2A0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15B9E34-385C-4F12-ADA2-DCEA18C2A0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15B9E34-385C-4F12-ADA2-DCEA18C2A0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15B9E34-385C-4F12-ADA2-DCEA18C2A0D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{179F2B73-689C-4EA6-AAC1-606AF7063E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{179F2B73-689C-4EA6-AAC1-606AF7063E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{179F2B73-689C-4EA6-AAC1-606AF7063E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{179F2B73-689C-4EA6-AAC1-606AF7063E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FCC0717-73C5-4A89-9440-93B5F9247027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCC0717-73C5-4A89-9440-93B5F9247027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCC0717-73C5-4A89-9440-93B5F9247027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCC0717-73C5-4A89-9440-93B5F9247027}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

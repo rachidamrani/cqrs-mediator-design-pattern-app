@@ -1,0 +1,10 @@
+@baserUrl = http://localhost:5163/api
+
+Get {{baserUrl}}/persons
+Content-Type: application/json
+
+###
+
+@id = 5e498223-6f2d-47ae-85b7-cc8ca81e6c3d
+GET  {{baserUrl}}/persons/{{id}}
+Content-Type: application/json
