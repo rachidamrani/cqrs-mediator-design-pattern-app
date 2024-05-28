@@ -27,7 +27,7 @@ Simply `git clone https://github.com/rachidamrani/cqrs-mediator-design-pattern-a
 ### Create Person Request
 
 ```js
-POST /Persons
+POST /persons
 ```
 
 ```json
@@ -45,7 +45,7 @@ POST /Persons
 ```
 
 ```yml
-Location: {{host}}/Persons/{{id}}
+Location: {{host}}/persons/{{id}}
 ```
 
 ```json
@@ -61,7 +61,7 @@ Location: {{host}}/Persons/{{id}}
 ### Get Person Request
 
 ```js
-GET /Persons/{{id}}
+GET api/persons/{{id}}
 ```
 
 ### Get Person Response
