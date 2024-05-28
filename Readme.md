@@ -45,7 +45,7 @@ POST /Persons
 ```
 
 ```yml
-Location: {{host}}/Persons/{{id}}
+Location: {{host}}/persons/{{id}}
 ```
 
 ```json
@@ -61,7 +61,7 @@ Location: {{host}}/Persons/{{id}}
 ### Get Person Request
 
 ```js
-GET /Persons/{{id}}
+GET api/persons/{{id}}
 ```
 
 ### Get Person Response
