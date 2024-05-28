@@ -13,7 +13,7 @@ namespace DemoLibrary.Queries.GetPersonById
         }
         public Task<Person> Handle(GetPersonByIdQuery request, CancellationToken cancellationToken)
         {
-            return _dataAccess.GetPersonById(request.Id);
+            return _dataAccess.GetPersonById(request.Id)!;
         }
     }
 }

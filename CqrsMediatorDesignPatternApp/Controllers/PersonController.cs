@@ -21,22 +21,25 @@ namespace CqrsMediatorDesignPatternApp.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllPersons()
         {
-            return Ok(await _mediator.Send(new GetAllPersonsQuery()));
+            List<Person> persons = await _mediator.Send(new GetAllPersonsQuery());
+            return new JsonResult(persons) { StatusCode = 200 };
         }
 
 
         [HttpGet("{id:guid}")]
         public async Task<IActionResult> GetPersonById(Guid id)
         {
-            Person person = await _mediator.Send(new GetPersonByIdQuery(id));
-            return person is not null ? Ok(person) : NotFound();
+            Person response = await _mediator.Send(new GetPersonByIdQuery(id));
+
+            return response is not null ? new JsonResult(response) { StatusCode = 200 } : new JsonResult(response) { StatusCode = 404 };
         }
 
 
         [HttpPost]
         public async Task<IActionResult> AddPerson([FromBody] Person person)
         {
-            return Ok(await _mediator.Send(new AddPersonCommand(person.FirstName, person.LastName)));
+            Person response = await _mediator.Send(new AddPersonCommand(person.FirstName, person.LastName));
+            return new JsonResult(response) { StatusCode = 201 };
         }
     }
 }
