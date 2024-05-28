@@ -1,7 +1,7 @@
 using DemoLibrary.DataAccess.Models;
 using MediatR;
 
-namespace DemoLibrary.Commands
+namespace DemoLibrary.Commands.AddPerson
 {
     public class AddPersonCommandHandler : IRequestHandler<AddPersonCommand, Person>
     {

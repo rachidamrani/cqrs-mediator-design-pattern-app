@@ -1,4 +1,4 @@
-using DemoLibrary.Commands;
+using DemoLibrary.Commands.AddPerson;
 using DemoLibrary.DataAccess.Models;
 using DemoLibrary.Queries.GetAllPersons;
 using DemoLibrary.Queries.GetPersonById;
